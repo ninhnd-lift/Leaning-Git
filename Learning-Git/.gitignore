@@ -1,3 +1,33 @@
+# Thư mục node_modules chứa thư viện cài bằng npm/yarn
 node_modules/
-.DS_Store
+
+
+# Các file build/biên dịch tự động
 dist/
+build/
+
+# File cấu hình môi trường
+.env
+.env.local
+.env.development
+.env.production
+
+# File log``
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# File hệ thống của macOS hoặc IDE
+.DS_Store
+.vscode/
+.idea/
+
+# File tạm hoặc cache
+*.tmp
+*.log
+.cache/
+coverage/
+
+# Thư mục chứa output khi deploy
+out/
